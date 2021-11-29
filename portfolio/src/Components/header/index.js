@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import "./header.css";
+import Web from "./web/index";
 
 function Header(){
     const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,14 @@ function Header(){
             </div>
             <div className="menu">
                 <div className="web-menu">
-                    <Web/>
+                    <Web />
+                </div>
+
+                <div className="mobile-menu">
+                    <div onClick={() => setIsOpen(!isOpen)}>
+                        <i class="fi-rr-apps menu-icon"></i>
+                    </div>
+                    
                 </div>
             </div>
         </div>
