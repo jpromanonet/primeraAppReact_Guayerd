@@ -12,8 +12,15 @@ function Header(){
     return(
         <div className="header">
             <div onClick={handleLogoClick} className="logo">
-                
+                Alexis Zarate
+            </div>
+            <div className="menu">
+                <div className="web-menu">
+                    <Web/>
+                </div>
             </div>
         </div>
     );
 }
+
+export default Header;
