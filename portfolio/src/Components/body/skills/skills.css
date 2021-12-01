@@ -1,0 +1,23 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.skill-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0px;
+}
+
+.skills-section-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    justify-content: ;
+}
