@@ -1,6 +1,6 @@
 import React from "react";
 import "./skills.css";
-import { SkillsData } from "../../../data/skils"
+import { SkillsData } from "../../../data/skills"
 import SkillCard from "./skill-card";
 import Separator from "../../common/separator";
 
