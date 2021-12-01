@@ -1,5 +1,5 @@
 import React from "react";
-import SocialContact from "../../common/social-contact";
+import SocialContact from "../../common/social-contact/index";
 import "./about.css";
 
 function About() {
@@ -23,3 +23,5 @@ function About() {
         </div>
     );
 }
+
+export default About;

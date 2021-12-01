@@ -1,5 +1,5 @@
 import React from "react";
-import ".contact.css";
+import "./contact.css";
 import SocialContact from "../../common/social-contact/index";
 import Separator from "../../common/separator/index";
 
@@ -22,3 +22,5 @@ function Contact(){
         </div>
     );
 }
+
+export default Contact;

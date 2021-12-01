@@ -1,5 +1,5 @@
 import React from "react";
-import { WorkData } from "../../../data/work";
+/*import { WorkData } from "../../../data/work";*/
 import WorkCard from "./work-card.css";
 import "./work.css";
 import Separator from "../../common/separator/index";
