@@ -19,5 +19,16 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 70%;
-    justify-content: ;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 720px) {
+    .skill-list{
+        max-width: 100%;
+        justify-content: center;
+    }
+    .skills-section {
+        flex-direction: column;
+        align-items: center;
+    }
 }
